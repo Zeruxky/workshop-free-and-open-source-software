@@ -107,7 +107,11 @@ Jedoch besagen beide Bewegungen nicht, dass die Software auch gratis bzw. kosten
 
 Wenn Free Software und Open-Source-Software sich ohne große Einschränkungen verwenden lässt, dann muss ich mich nicht großartig darum kümmern, ob ich gegen Bestimmungen verstoße, oder? Dieser Gedanke kann sich jedoch schwerwiegend auswirken, da die Freizügigkeit vor allem bei Open-Source-Software nicht automatisch bedeutet, dass ich auf nichts achten muss. Verletzungen gegen Open-Source-Lizenzen gibt es einige und haben auch zu einer großen Diskussion innerhalb der Bewegung geführt.
 
-### TiVO / Tivorisierung
+### Welte vs. D-Link (2006)
+
+Am 6. September 2006 hat das Projekt "gpl-violations.org" vor dem Landgericht Frankfurt am Main gegen die D-Link Germany GmbH wegen der urheberrechtswidrigen Verwendung von Teilen des Linux-Kernels in den von D-Link vertriebenen Geräten obsiegt. In dem Urteil wird festgestellt, dass die GPL gültig und rechtsverbindlich ist und vor deutschen Gerichten Bestand hat.
+
+### Free Software Foundation vs. Xperi (2006)
 
 Der Begriff *Tivorisierung* ist mir damals in meiner Recherche für eine Seminararbeit an der Universität Innsbruck untergekommen. Der Begriff leitet sich von dem digitalen Videorekorder *TiVO* der Firma *Xperi* ab, der auf dem Linux Kernel und auf GNU Software basiert und wurde von Richard Stallman als erstes verwendet. Beide Tools sind unter der GPLv2 lizenziert, die eine Offenlegung des Quellcodes fordert, damit Benutzer den Quellcode verändern und verbessern können. Xperi ist dieser Bedingung in der Form nachgekommen, in dem der Quellcode öffentlich zugänglich ist. Jedoch sind nur Programme auf dem TiVo lauffähig, die mit einer digitalen Signatur, die von Xperi erst freigegeben werden muss, übereinstimmt. Richard Stallman sah darin das Ziel der GPL verletzt, da keine Software, außer die vom Hersteller autorisierte, auf dem Gerät lauffähig ist. Somit sei der Benutzer in seiner Freiheit, seine oder andere freie Software auf dem TiVo zu installieren.
 
@@ -143,7 +147,7 @@ Der Fall Jacobsen ist im amerikanischen Urheberrecht bemerkenswert, weil die Ger
 
 ### Free Software Foundation vs. Cisco Systems (2009)
 
-Die Free Software Foundation (FSF) verklagte *Cisco Systems* aufgrund Lizenzverletzungen seitens Cisco Systems in den Produkten ihrer Submarke *Linksys*. Die FSF hielt an verschiedenen von Cisco Systems verwendeten Software-Tools das Urheberrecht, wie z.B. the *GNU C-Compiler* (GCC), *GNU Binutils* and the *GNU C Library*. Die meisten dieser Tools wurden unter die GPLv2 lizenziert, einige andere unter der GNU Lesser Public License (LGPL).
+Die Free Software Foundation (FSF) verklagte *Cisco Systems* aufgrund Lizenzverletzungen seitens Cisco Systems in den Produkten ihrer Submarke *Linksys*. Die FSF hielt an verschiedenen von Cisco Systems verwendeten Software-Tools das Urheberrecht, wie z.B. the *GNU C-Compiler* (GCC), *GNU Binutils* und die *GNU C Library*. Die meisten dieser Tools wurden unter die GPLv2 lizenziert, einige andere unter der GNU Lesser Public License (LGPL).
 
 Das *Software Freedom Law Center* (SFLC) vertrat die FSF vor Gericht gegen Cisco Systems. In diesem Verfahren wurde Cisco Systems vorgeworfen, dass in mehreren Produkten von Linksys und im Programm *QuickVPN* copyright geschützter Code von der FSF gefunden wurde. Beide Parteien einigten sich darauf, dass ein Direktor bei Cisco Systems installiert wird, der sicher stellen sollte, dass alle Linksys Produkte im Einklang mit freien Softwarelizenzen sind. Auch eine finanzielle Zuwendung von Cisco Systems an die Free Software Foundation wurde vereinbart.
 
@@ -153,21 +157,17 @@ Die aus Florida stammende Firma Rothschild Patent Imaging (RPI) verklagte die GN
 
 Die GNOME Foundation wehrte sich mit einer Klage gegen den Eigentümer von RPI, Leigh Rothschild, die zum Ziel hatte, einen Vergleich mit Leigh Rothschild zu erzielen, der alle Patentdrohungen vonseiten Rothschild aus Open-Source-Projekten zu beseitigen.
 
-### Welte vs. D-Link (2006)
-
-Am 6. September 2006 hat das Projekt "gpl-violations.org" vor dem Landgericht Frankfurt am Main gegen die D-Link Germany GmbH wegen der urheberrechtswidrigen Verwendung von Teilen des Linux-Kernels in den von D-Link vertriebenen Geräten obsiegt. In dem Urteil wird festgestellt, dass die GPL gültig und rechtsverbindlich ist und vor deutschen Gerichten Bestand hat.
-
 ## Weiterer Umgang mit Open-Source-Projekten in kommerziellem Umfeld
 
 Open-Source-Programme und Software ist in der heutigen Welt ein fester Bestandteil. Die Open-Source-Bewegung hat viele großartige und innovative Lösungen hervorgebracht und diese für die Öffentlichkeit zur Verfügung gestellt. Hier sind z.B. zu nennen, dass
 
 - ein Großteil der im Internet betriebenen Webserver auf Linux-Betriebssysteme setzt.
 - Google Chrome auf dem Open-Source-Projekt *Chromium* und auf die Browser-Engine *Blink* basiert. Chromium und Blink werden auch von anderen Firmen wie Opera, Brave, Microsoft und Samsung dazu verwendet, um eigene Browser oder sogar das Software-Framework *Electron* zu entwickeln.
-- die Mozilla Foundation mit dem Open-Source-Browser *Firefox* und der Browser-Enginge *Gecko*.
+- die Mozilla Foundation mit dem Open-Source-Browser *Firefox* und der Browser-Engine *Gecko*.
 - Visual Studio Code bzw. VSCodium als Open-Source-Entwicklungseditor verfügbar ist.
 - .NET ab .NET Core 1.0 von Microsoft Open-Source gestellt wurde.
 
-Diese und viele weitere Projekte werden von einer großen Community aus freiwilligen und Firmen, Institutionen und Gruppierungen betrieben mit oder ohne einem dahinterliegenden Geschäftsmodell. Entweder beteiligen sich Personen innerhalb ihrer Freizeit an diesen Projekten oder werden durch beteiligte Firmen wie IBM, Microsoft oder Google angestellt, um Open-Source-Projekte aktiv zu unterstützen und sicherzustellen, dass die Entwicklung gesichert ist.
+Diese und viele weitere Projekte werden von einer großen Community aus Freiwilligen und Firmen, Institutionen und Gruppierungen betrieben mit oder ohne einem dahinterliegenden Geschäftsmodell. Entweder beteiligen sich Personen innerhalb ihrer Freizeit an diesen Projekten oder werden durch beteiligte Firmen wie IBM, Microsoft oder Google angestellt, um Open-Source-Projekte aktiv zu unterstützen und sicherzustellen, dass die Entwicklung gesichert ist.
 
 Doch basierend auf der Arbeit dieser Open-Source-Community machen viele Firmen auch Profit, indem sie Open-Source-Software innerhalb ihrer kommerziell vertriebenen Produkte eingesetzt wird. Dabei wird vonseiten von Open-Source-Entwicklern und Vertretern kritisiert, dass der zurückfließende Support seitens der Firmen in einem ungleichen Verhältnis zu den erwirtschafteten Erträge stehen und somit die Arbeit der Open-Source-Community ausgenutzt wird. Das Überleben eines Open-Source-Projektes hängt von der finanziellen und arbeitsmäßigen Unterstützung ab, die es von anderen Beteiligten, Usern und Nutznießern bekommt. Darum sehen sich zunehmend Projekte dazu gezwungen ihre Software bzw. Produkte unter eine Doppellizenz zu stellen, die auf die kommerzielle Verwendung der Software abzielt.
 
